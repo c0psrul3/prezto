@@ -8,4 +8,7 @@
 # Ensure that a non-login, non-interactive shell has a defined environment.
 if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
+  if [ -d "${ZDOTDIR:-$HOME}/.env.d" ]; then
+    source ${ZDOTDIR:-$HOME}/.env.d/*.env
+  fi
 fi
