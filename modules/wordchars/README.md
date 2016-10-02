@@ -17,4 +17,6 @@ export WORDCHARS='*?_[]~=&;!#$%^(){}'
 author
 ------
 
-- [c0psrul3](https://raw.githubusercontent.com/c0psrul3/prezto/module/wordchars)
+- [c0psrul3](https://keybase.io/c0psrul3)
+
+[1] [https://raw.githubusercontent.com/c0psrul3/prezto/module/wordchars]
